@@ -6,6 +6,14 @@ comments: false
 
 {% timeline 小站建设进程 %}
 
+<!-- timeline 2025-08-28 -->
+
+1. 升级 anzhiyu 主题
+2. 迁移数据
+3. 页脚优化，加上宠物
+
+<!-- endtimeline  -->
+
 <!-- timeline 2025-08-24 -->
 
 1. 增加即刻短文

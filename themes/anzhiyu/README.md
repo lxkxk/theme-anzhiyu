@@ -1,5 +1,7 @@
-注意： 1.添加闲言碎语时 记得把 top.pug 文件里的 script(src=url_for(theme.home_top.swiper.swiper_js))
+#注意：
+##1.添加闲言碎语时 记得把 top.pug 文件里的 script(src=url_for(theme.home_top.swiper.swiper_js))
 给注释掉 不然会重复引入 2.https://blog.xiowo.net/posts/anzhiyu/ -- 魔改美化参考
+##2.修改背景图 -- imgloaded.js 文件
 
 <p align="center">
   <a title="Hexo Version" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-%3E%3D%205.3.0-orange?style=flat"></a>

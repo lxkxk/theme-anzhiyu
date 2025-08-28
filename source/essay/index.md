@@ -1,5 +1,5 @@
 ---
-title: 即刻短文
+title: 闲言碎语
 date: 2025-08-26 15:06:17
 comments: true
 aside: false

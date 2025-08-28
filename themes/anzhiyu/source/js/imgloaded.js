@@ -59,17 +59,17 @@
 
   const ldconfig = {
     light: {
-      smallSrc: 'https://i.imgs.ovh/2025/08/27/xFE4q.webp', //浅色模式 小图链接 尽可能配置小于100k的图片 
-      largeSrc: 'https://i.imgs.ovh/2025/08/27/xFE4q.webp', //浅色模式 大图链接 最终显示的图片
-      mobileSmallSrc: 'https://i.imgs.ovh/2025/08/02/JU4GH.jpeg', //手机端浅色小图链接 尽可能配置小于100k的图片
-      mobileLargeSrc: 'https://i.imgs.ovh/2025/08/02/JU4GH.jpeg', //手机端浅色大图链接 最终显示的图片
+      smallSrc: 'https://i.imgs.ovh/2025/08/02/JVe39.jpeg', //浅色模式 小图链接 尽可能配置小于100k的图片 
+      largeSrc: 'https://i.imgs.ovh/2025/08/02/JVe39.jpeg', //浅色模式 大图链接 最终显示的图片
+      mobileSmallSrc: 'https://i.imgs.ovh/2025/08/02/JVe39.jpeg', //手机端浅色小图链接 尽可能配置小于100k的图片
+      mobileLargeSrc: 'https://i.imgs.ovh/2025/08/02/JVe39.jpeg', //手机端浅色大图链接 最终显示的图片
       enableRoutes: ['/'],
     },
     dark: {
-      smallSrc: 'https://i.imgs.ovh/2025/08/02/JVe39.jpeg', //深色模式 小图链接 尽可能配置小于100k的图片 
-      largeSrc: 'https://i.imgs.ovh/2025/08/02/JVe39.jpeg', //深色模式 大图链接 最终显示的图片
-      mobileSmallSrc: 'https://i.imgs.ovh/2025/08/02/JUdcU.jpeg', //手机端深色模式小图链接 尽可能配置小于100k的图片
-      mobileLargeSrc: 'https://i.imgs.ovh/2025/08/02/JUdcU.jpeg', //手机端深色大图链接 最终显示的图片
+      smallSrc: 'https://i.imgs.ovh/2025/08/28/xxjz1.webp', //深色模式 小图链接 尽可能配置小于100k的图片 
+      largeSrc: 'https://i.imgs.ovh/2025/08/28/xxjz1.webp', //深色模式 大图链接 最终显示的图片
+      mobileSmallSrc: 'https://i.imgs.ovh/2025/08/28/xxcHn.jpeg', //手机端深色模式小图链接 尽可能配置小于100k的图片
+      mobileLargeSrc: 'https://i.imgs.ovh/2025/08/28/xxcHn.jpeg', //手机端深色大图链接 最终显示的图片
       enableRoutes: ['/'],
     },
   };

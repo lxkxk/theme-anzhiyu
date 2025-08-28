@@ -21,7 +21,7 @@ menu:
 
   关于:
     关于本人: /about/ || anzhiyu-icon-paper-plane
-    吐槽: /essay/ || anzhiyu-icon-lightbulb
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
@@ -465,31 +465,31 @@ footer:
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
         message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
-    enable: false
-    centerImg:
+    enable: true
+    centerImg: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg
     left:
-      # - title: email
-      #   link: mailto:anzhiyu-c@qq.com
-      #   icon: anzhiyu-icon-envelope
-      # - title: 微博
-      #   link: https://weibo.com/u/6378063631
-      #   icon: anzhiyu-icon-weibo
-      # - title: facebook
-      #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
-      #   icon: anzhiyu-icon-facebook1
+      - title: email
+        link:
+        icon: anzhiyu-icon-envelope
+      - title: 微博
+        link: https://weibo.com/
+        icon: anzhiyu-icon-weibo
+      - title: facebook
+        link: https://www.facebook.com/
+        icon: anzhiyu-icon-facebook1
       # - title: RSS
       #   link: atom.xml
       #   icon: anzhiyu-icon-rss
     right:
-      # - title: Github
-      #   link: https://github.com/anzhiyu-c
-      #   icon: anzhiyu-icon-github
-      # - title: Bilibili
-      #   link: https://space.bilibili.com/372204786
-      #   icon: anzhiyu-icon-bilibili
-      # - title: 抖音
-      #   link: https://v.douyin.com/DwCpMEy/
-      #   icon: anzhiyu-icon-tiktok
+      - title: Github
+        link: https://github.com/
+        icon: anzhiyu-icon-github
+      - title: Bilibili
+        link: https://space.bilibili.com/
+        icon: anzhiyu-icon-bilibili
+      - title: 抖音
+        link: https://v.douyin.com/
+        icon: anzhiyu-icon-tiktok
       # - title: CC
       #   link: /copyright
       #   icon: anzhiyu-icon-copyright-line
@@ -870,15 +870,15 @@ aside:
   card_webinfo:
     enable: true
     post_count: true
-    last_push_date: false
+    last_push_date: true # 最后更新时间
     sort_order: # Don't modify the setting unless you know how it works
 
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
-  page_pv: false
+  site_uv: true
+  site_pv: true
+  page_pv: true
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
@@ -1074,12 +1074,12 @@ css_prefix: true
 home_top:
   enable: true # 开关
   timemode: date #date/updated
-  title: 生活明朗
-  subTitle: 万物可爱
+  title: 缘分让我们相遇
+  subTitle: 在乱世以外~
   siteText: liuxk.online
   category:
-    - name: 前端
-      path: /categories/前端开发/
+    - name: 主页
+      path: /
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
@@ -1232,6 +1232,7 @@ linkPageTop:
   enable: true
   title: 与数百名博主无限进步
   # 添加博主友链的评论自定义格式
+  # addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
   addFriendPlaceholder: "昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"
 
 # 缩略图后缀 archive/tag/category 页面单独开启后缀
@@ -1246,9 +1247,9 @@ agreementPopup:
 rightClickMenu:
   enable: true
 
-# 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
+# 首页左上角 - 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
-  enable: true
+  enable: false
   img: https://upload-bbs.miyoushe.com/upload/2024/07/27/125766904/ba62475f396df9de3316a08ed9e65d86_5680958632268053399..png
 
 # 动效
