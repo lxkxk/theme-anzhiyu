@@ -1,0 +1,111 @@
+- class_name: 关于页
+  subtitle: 重新出发吗 更渴望未来✨
+  avatarImg: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg
+  avatarSkills:
+    left:
+      - 🤖️ 数码科技爱好者
+      - 🔍 分享与热心帮助
+      - 🏠 智能家居小能手
+      - 🔨 设计开发一条龙
+    right:
+      - 专修交互与设计 🤝
+      - 脚踏实地行动派 🏃
+      - 团队小组发动机 🧱
+      - 壮汉人狠话不多 💢
+  name: liuxk
+  description: 前端开发工程师、独立开发者(本网站)
+  aboutsiteTips:
+    tips: 追求
+    title1: 源于
+    title2: 热爱而去 感受
+    word:
+      - 学习
+      - 生活
+      - 程序
+      - 体验
+  helloAbout: 欢迎来到这~
+  skillsTips:
+    tips: 技能
+    title: 开启创造力
+    img:
+  careers:
+    tips: 生涯
+    title: 无限进步
+    list:
+      - desc: 软件技术
+        color: '#357ef5'
+      - desc: 计算机信息与技术
+        color: '#357ef5'
+    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+  statistic:
+    link: /archives
+    text: 文章隧道
+    cover: https://cdn.tulan.cyou/2025/06/26/467d6ad2aab9bd0a67807079fc1fbe61.jpg
+  map:
+    title: 我现在住在
+    StrengthenTitle: 中国,北京
+    background: /img/dt11.jpg
+    backgroundDark: /img/dt11.jpg
+  selfInfo:
+    selfInfoTips1: 目标
+    selfInfoContentYear: 好好生活
+    selfInfoTips2: 状态
+    selfInfoContent2: 摆烂ing
+    selfInfoTips3: 结果
+    selfInfoContent3: 你猜awa
+  personalities:
+    author_name: 主人公
+    personality_type: ENFJ-T
+    photo_url: /img/zp22.jpg
+    personality_img: /img/svg/enfj.svg
+    name_url: https://www.16personalities.com/ch/enfj-%E4%BA%BA%E6%A0%BC
+  maxim:
+    maxim_tips: 我的祝福
+    maxim_top: 愿太阳升起时，
+    maxim_bottom: 你比昨天更幸福✨
+  buff:
+    buff_tips: 座右铭
+    buff_top: 努力去发光
+    buff_bottom: 而不是被照亮
+  game:
+    game_tips: 爱好游戏（id：眼睛好累呀）
+    game_title: 王者
+    game_uid: '眼睛好累呀'
+    game_bg: https://i.imgs.ovh/2025/08/18/pJMIQ.jpeg
+  comic:
+    comic_tips: 爱好影视
+    comic_title: 推荐
+    comic_list:
+      - name: 凡人修仙传
+        href: https://www.bilibili.com/bangumi/media/md28223043/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://img.667408.xyz/2024/11/02/788759.webp
+      # - name: 流浪地球2
+      #   href: https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%832
+      #   cover: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/violet.jpg
+      # - name: 灵笼
+      #   href: https://zh.wikipedia.org/wiki/%E9%BB%98%E6%9D%80
+      #   cover: https://img.667408.xyz/2024/11/02/551761.webp
+      # - name: 抓娃娃
+      #   href: https://zh.wikipedia.org/wiki/%E6%8A%93%E5%A8%83%E5%A8%83_(%E7%94%B5%E5%BD%B1)
+      #   cover: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/violet.jpg
+      # - name: 泰坦尼克号
+      #   href: https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7_(1997%E5%B9%B4%E7%94%B5%E5%BD%B1)
+      #   cover: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/violet.jpg
+  like:
+    like_tips: 关注偏好
+    like_title: 数码科技
+    like_bg: https://img02.anheyu.com/adminuploads/1/2022/09/24/632f0dd8f33c6.webp
+    like_bottom: 手机、电脑软硬件
+  music:
+    music_tips: 音乐偏好
+    music_title: 邓紫棋、民谣、欧美流行
+    music_bg: https://i.imgs.ovh/2025/08/18/pJD9X.jpeg
+    music_link: /music
+  reward_list:
+    - name: 纸短情长
+      amount: 50RMB
+      datatime: 2025-07-25
+    - name: xongxong
+      amount: 28.8RMB
+      datatime: 2025-08-03
+  personalities.photo_url: https://i.imgs.ovh/2025/08/18/pJMIQ.jpeg

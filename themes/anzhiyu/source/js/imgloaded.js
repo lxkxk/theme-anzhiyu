@@ -45,7 +45,7 @@
   }
 
   const executeLoad = (config, target) => {
-    console.log('执行渐进背景替换');
+    // console.log('执行渐进背景替换');
     const isMobile = window.matchMedia('(max-width: 767px)').matches;
     const loader = new ProgressiveLoad(
       isMobile ? config.mobileSmallSrc : config.smallSrc,
@@ -59,8 +59,8 @@
 
   const ldconfig = {
     light: {
-      smallSrc: 'https://i.imgs.ovh/2025/08/26/ut7ne.jpeg', //浅色模式 小图链接 尽可能配置小于100k的图片 
-      largeSrc: 'https://i.imgs.ovh/2025/08/26/ut7ne.jpeg', //浅色模式 大图链接 最终显示的图片
+      smallSrc: 'https://i.imgs.ovh/2025/08/27/xFE4q.webp', //浅色模式 小图链接 尽可能配置小于100k的图片 
+      largeSrc: 'https://i.imgs.ovh/2025/08/27/xFE4q.webp', //浅色模式 大图链接 最终显示的图片
       mobileSmallSrc: 'https://i.imgs.ovh/2025/08/02/JU4GH.jpeg', //手机端浅色小图链接 尽可能配置小于100k的图片
       mobileLargeSrc: 'https://i.imgs.ovh/2025/08/02/JU4GH.jpeg', //手机端浅色大图链接 最终显示的图片
       enableRoutes: ['/'],

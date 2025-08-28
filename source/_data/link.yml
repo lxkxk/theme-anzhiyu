@@ -1,13 +1,23 @@
-- class_name: 0.好友网站🍔
-  class_desc: 这里是最熟悉的小伙伴或者赞助商，当然是最前排啦
+- class_name: 推荐博客
+  flink_style: flexcard
   link_list:
-    - name: SunFlower🥝
-      link: https://www.liuxk.online/
-      # avatar: /img/toux.jpg
-      avatar: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg
-      descr: 正在玩命开发完善中
+    - name: 安知鱼`Blog
+      link: https://blog.anheyu.com/
+      avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg
+      descr: 生活明朗，万物可爱
+      siteshot: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.6/img/blog.anheyu.com.jpg
+    - name: NoahのBlog
+      link: https://blog.noah0932.top/
+      avatar: https://cdn.tulan.cyou/noah/2025/07/26/b_5255bd8e31082e2a4332c4eb4172686e.jpg
+      descr: 努力去发光，而不是被照亮
+      siteshot: https://cdn.tulan.cyou/noah/2025/08/11/ab3ff3f0-ec7a-49d0-8875-d43c4a5b71fd-1.png
+    - name: infp
+      link: https://www.infp.online/
+      avatar: https://avatars.githubusercontent.com/u/218495377?v=4
+      descr:
       siteshot:
-# avatar: https://www.fomal.cc/assets/avatar.webp
-# descr: 正在玩命开发完善中
-# siteshot: https://source.fomal.cc/siteshot/www.fomal.cn.jpg
-
+    # - name: ヅ蕶碎記憶
+    #   link: https://www.liuxk.online/
+    #   avatar: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg
+    #   descr: 正在玩命开发完善中
+    #   siteshot:

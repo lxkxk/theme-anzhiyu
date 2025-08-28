@@ -1,3 +1,6 @@
+注意： 1.添加闲言碎语时 记得把 top.pug 文件里的 script(src=url_for(theme.home_top.swiper.swiper_js))
+给注释掉 不然会重复引入 2.https://blog.xiowo.net/posts/anzhiyu/ -- 魔改美化参考
+
 <p align="center">
   <a title="Hexo Version" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-%3E%3D%205.3.0-orange?style=flat"></a>
   <a title="Node Version" target="_blank" href="https://nodejs.org/zh-cn/"><img alt="Node Version" src="https://img.shields.io/badge/Node-%3E%3D%2010.13.0-yellowgreen?style=flat"></a>
@@ -60,18 +63,19 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 - windows
   复制`/themes/anzhiyu/_config.yml`此文件到 hexo 根目录，并重命名为`_config.anzhiyu.yml`
 
-以后如果修改任何主题配置，都只需修改 _config.anzhiyu.yml 的配置即可。
+以后如果修改任何主题配置，都只需修改 \_config.anzhiyu.yml 的配置即可。
 
 注意：
- - 只要存在于 `_config.anzhiyu.yml` 的配置都是高优先级，修改原 `_config.yml` 是无效的。
- - 每次更新主题可能存在配置变更，请注意更新说明，可能需要手动对 `_config.anzhiyu.yml` 同步修改。
- - 想查看覆盖配置有没有生效，可以通过 `hexo g --debug` 查看命令行输出。
- - 如果想将某些配置覆盖为空，注意不要把主键删掉，不然是无法覆盖的
+
+- 只要存在于 `_config.anzhiyu.yml` 的配置都是高优先级，修改原 `_config.yml` 是无效的。
+- 每次更新主题可能存在配置变更，请注意更新说明，可能需要手动对 `_config.anzhiyu.yml` 同步修改。
+- 想查看覆盖配置有没有生效，可以通过 `hexo g --debug` 查看命令行输出。
+- 如果想将某些配置覆盖为空，注意不要把主键删掉，不然是无法覆盖的
 
 ## 功能特性
 
 - ✅ 无比详实的[用户文档](https://docs.anheyu.com/)
-- ✅ 页面组件懒加载(pjax方案)
+- ✅ 页面组件懒加载(pjax 方案)
 - ✅ 图片懒加载
 - ✅ 多种代码高亮方案
 - ✅ 多语言配置
@@ -79,26 +83,26 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 - ✅ 内置网页访问统计
 - ✅ 支持暗色模式
 - ✅ 支持脚注语法
-- ✅ 支持自定义CDN静态资源
+- ✅ 支持自定义 CDN 静态资源
 - ✅ 丰富多样化的标签选项快速构建你想要的功能
 - ✅ 支持定制化的右键菜单
 - ✅ 支持定制化的主色调随封面图片颜色变化
 - ✅ 支持沉浸式状态栏
 - ✅ 支持文章字数统计
 - ✅ 支持聊天系统
-- ✅ 支持谷歌分析、百度分析、微软分析、cloudflare分析、cnzz分析
+- ✅ 支持谷歌分析、百度分析、微软分析、cloudflare 分析、cnzz 分析
 - ✅ 支持广告挂载
 - ✅ 支持图片大图查看
 - ✅ 支持瀑布流即刻说说
 - ✅ 支持瀑布流相册集
-- ✅ 支持阿里图标与fontawesome
-- ✅ 支持高速缓存的swpp，pwa特性
+- ✅ 支持阿里图标与 fontawesome
+- ✅ 支持高速缓存的 swpp，pwa 特性
 - ✅ 优秀的隐私协议支持
-- ✅ 文章AI摘要支持
+- ✅ 文章 AI 摘要支持
 - ✅ 支持音乐球
 - ✅ 支持全局中控台
 - ✅ 支持快捷键选项
-- ✅ 支持本地搜索/algolia搜索🔍/Docsearch
+- ✅ 支持本地搜索/algolia 搜索 🔍/Docsearch
 - ✅ 支持 LaTeX 数学公式
 - ✅ 支持 mermaid 流程图
 
@@ -112,7 +116,7 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 高度定制。
 ![高低自定义的右键菜单](https://upload-bbs.miyoushe.com/upload/2023/09/04/125766904/3f66e33b24a758d53717f6c2c44e50af_1884994888952376370.png)
 
-**AI摘要**
+**AI 摘要**
 迅速读取文章内容。
 ![AI摘要](https://upload-bbs.miyoushe.com/upload/2023/09/04/125766904/184e089d64660f5f72390f547c864633_3266246986824356702.png)
 
@@ -134,4 +138,4 @@ cp -rf ./themes/anzhiyu/_config.yml ./_config.anzhiyu.yml
 
 ## 仓库统计
 
-![仓库统计](https://repobeats.axiom.co/api/embed/60fcf455cd02123aebe6249deabf8d48e3debcae.svg "Repobeats analytics image")
+![仓库统计](https://repobeats.axiom.co/api/embed/60fcf455cd02123aebe6249deabf8d48e3debcae.svg 'Repobeats analytics image')
