@@ -436,7 +436,7 @@ footer:
   owner:
     enable: true
     since: 2025
-  custom_text:
+  custom_text: 「故事在此停笔，但墨迹未干。你读的是我的昨天，而明天正在路上———若好奇结局，不妨等等看...」✨
   runtime:
     enable: true
     launch_time: 06/01/2025 00:00:00 # 网站上线时间
@@ -452,6 +452,12 @@ footer:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
+      - link: https://butterfly.js.org/ #徽标指向网站链接
+        shields: https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender #徽标API
+        message: 借鉴butterfly #徽标提示语
+      - link: https://www.jsdelivr.com/ #徽标指向网站链接
+        shields: https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr #徽标API
+        message: jsDelivr加速 #徽标提示语
       - link: https://blog.anheyu.com/
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
@@ -494,8 +500,8 @@ footer:
       #   link: /copyright
       #   icon: anzhiyu-icon-copyright-line
   list:
-    enable: true
-    randomFriends: 3
+    enable: false
+    randomFriends: 2
     project:
       - title: 服务
         links:
@@ -503,12 +509,12 @@ footer:
             link: https://v6.51.la/
           - title: 十年之约
             link: https://www.foreverblog.cn/
-          - title: 开往
-            link: https://github.com/travellings-link/travellings
+          # - title: 开往
+          #   link: https://github.com/travellings-link/travellings
       - title: 主题
         links:
-          - title: 文档
-            link: /docs/
+          # - title: 文档
+          #   link: /docs/
           - title: 源码
             link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
           - title: 更新日志
@@ -519,14 +525,14 @@ footer:
             link: /essay/
           - title: 友链文章
             link: /fcircle/
-          - title: 留言板
-            link: /comments/
+          # - title: 留言板
+          #   link: /comments/
       - title: 协议
         links:
           - title: 隐私协议
             link: /privacy/
-          - title: Cookies
-            link: /cookies/
+          # - title: Cookies
+          #   link: /cookies/
           - title: 版权协议
             link: /copyright/
   footerBar:
@@ -540,6 +546,8 @@ footer:
         text: 主题
       - link: https://image.anheyu.com
         text: 图床
+      - link: https://memoty48.github.io/memory48.github.io/
+        text: 寻找记忆
       # - link: https://beian.miit.gov.cn/
       #   text: 湘ICP备-xxxxxxx号
     subTitle:
