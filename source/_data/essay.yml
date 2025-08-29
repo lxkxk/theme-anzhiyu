@@ -1,11 +1,25 @@
-- class_name: 即刻短文
+- name: ヅ蕶碎記憶 # 姓名
+  desc: 不负心灵，不负今生 # 个签
+  avatar: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg # 头像
+  avatarLink: /about/ # 点击头像跳转链接
+  limit: 30
+  home_essay: true
+  top_background: https://lib.bsgun.cn/Hexo-static/img/essay-bg.avif #背景图
   essay_list:
-    - content: 相册集搞定, 瀑布流在滑动滚动条一个视口范围上下100的情况执行一次, 到底部停止监听让性能高了好多，再也不会布局混乱🤪了
-      date: 2025/08/24
-      # link: https://blog.anheyu.com/album/
-    - content: 支持缩略图显示（默认获取文章内容的第一张图片）
-      date: 2025/08/24 08:00:00
-      from: SunFlower🥝
+    # - content:    # 内容
+    #   date:       # 时间
+    #   address:    # 位置
+    #   link:       # 链接
+    #   video:      # 视频链接 支持哔哩哔哩代码嵌入   控制视频是否自动播放&autoplay=0
+    #     -
+    #   image:      # 图片链接支持多个
+    #     -
+    - content: 看到了一个大佬的魔改朋友圈，你懂得，直接拿，推荐大佬的图床
+      date: 2025/08/29
+      image:
+        - https://lib.bsgun.cn/2024/07/27/597131.webp
+      address: 北京·海淀
+      link: https://dev.ruom.top
     - content: 遇见彩虹🌈吃定彩虹
       date: 2025/08/24 10:00:00
       image:
@@ -13,10 +27,6 @@
         - https://i.imgs.ovh/2025/08/02/JVHO0.jpeg
         - https://i.imgs.ovh/2025/08/02/JVnKg.jpeg
         - https://i.imgs.ovh/2025/08/02/JVJgY.jpeg
-    - content: 想换电脑了，太卡了
-      date: 2025/08/24
-    - content: 歌曲推荐
-      date: 2025/08/24
-      # aplayer:
-      #   server: netease
-      #   id: 14044452884
+    - content: 这半静态岂不是随便改
+      date: 2025/07/21 10:00:00
+      image:

@@ -7,9 +7,9 @@ menu:
   # 友链:
   网站:
     友人帐: /link/ || anzhiyu-icon-link
-    时间线: /update/ || anzhiyu-icon-artstation
-    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
-    故事: /story/ || anzhiyu-icon-artstation
+    时间线: /update/ || anzhiyu-icon-link
+    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    故事: /story/ || anzhiyu-icon-envelope
     # 统计: /charts/ || anzhiyu-icon-link
     # 留言板: /comments/ || anzhiyu-icon-envelope
 
@@ -80,7 +80,8 @@ social:
 author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
-  statusImg: 'https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png'
+  # statusImg: 'https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png'
+  statusImg: 'https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/HONKAI3-Pure/1.gif'
   skills:
     - 🤖️ 数码科技爱好者
     - 🔍 分享与热心帮助
@@ -1274,6 +1275,7 @@ inject:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="/css/home.css"> # 首页文章卡片擦亮效果
+    - <link rel="stylesheet" href="/static/essay-style.css"> # 即刻短文
 
   bottom:
     # 自定义js
@@ -1372,3 +1374,13 @@ CDN:
     # waterfall:
     # ali_iconfont_css:
     # accesskey_js:
+# Lite朋友圈配置
+friends_lite:
+  enable: true
+  fclite_css_url: https://fc.ruom.top/main/fclite.css # 轻量朋友圈的CSS
+  fclite_js_url: https://fc.ruom.top/main/fclite.js # 轻量朋友圈的js
+  private_api_url: https://fc.ruom.top/ # 获取json的API URL
+  page_turning_number: 20 # 每页显示的文章数量
+  error_img: https://cdn.bsgun.cn/Hexo-static/img/error-404.avif # 404图片 URL
+  top_background: https://cdn.bsgun.cn/Hexo-static/img/essay-bg.avif # 顶部背景图片 URL
+  top_tips: 使用 轻量友链朋友圈 订阅友链最新文章 # 顶部提示文本
