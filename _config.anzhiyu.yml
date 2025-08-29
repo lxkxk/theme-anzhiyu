@@ -81,7 +81,8 @@ author_status:
   enable: true
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   # statusImg: 'https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png'
-  statusImg: 'https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/HONKAI3-Pure/1.gif'
+  # statusImg: 'https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/HONKAI3-Pure/1.gif'
+  statusImg: /img/1.gif
   skills:
     - 🤖️ 数码科技爱好者
     - 🔍 分享与热心帮助
@@ -254,6 +255,7 @@ post_copyright:
 # Sponsor/reward
 reward:
   enable: true
+  text: 信念自由
   QR_code:
     - img: /img/wxzf.jpg
       link:
@@ -1105,7 +1107,7 @@ home_top:
   default_descr: 再怎么看我也不知道怎么描述它的啦！
   swiper:
     enable: false
-    swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
+    swiper_css: /css/swiper.min.css #swiper css依赖
     swiper_js: /js/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: 今日状态
