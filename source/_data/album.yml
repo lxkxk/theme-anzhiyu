@@ -12,19 +12,43 @@
   top_link: /album
   top_btn_text: 返回
   album_list:
-    - date: 2024/05/03 18:00:00
-      content: 烟台到大连的海上
+    - date: 2025-09-09 20:00:00
+      content: 下班回家路上雨景，秋天的雨有点凄凉--2025-09
+      address: 北京市
+      image:
+        - https://i.imgs.ovh/2025/09/10/7CJyGr.jpeg
+    - date: 2025-01-01 00:00:00
+      content: 天津站跨年夜--2025-01
+      address: 天津市
+      image:
+        - https://i.imgs.ovh/2025/09/10/7CJa6e.jpeg
+    - date: 2024-05-03 18:00:00
+      content: 烟台到大连的海上--2024-05
       address: 山东-烟台
-      from: 去过的城市里边最中意烟台~
       image:
         - https://i.imgs.ovh/2025/09/10/7Cg1u4.jpeg
+    - date: 2023-01-10
+      content: 下班路上下雪--2023-01
+      address: 北京市
+      image:
+        - https://i.imgs.ovh/2025/09/10/7CJCMM.jpeg
+    - date: 2022-08-08
+      content: 北京海淀第一次见到完整的彩虹--2022-08
+      address: 北京市
+      image:
+        - https://i.imgs.ovh/2025/09/10/7CJZjh.jpeg
     - date: 2022-10-25
-      content: 洛阳暴雨后的天空。
+      content: 洛阳暴雨后的天空--2022-10
       address: 河南洛阳
       from: 紫菜卷
       image:
         - https://bu.dusays.com/2023/04/09/64329399db122.webp
         - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+    - date: 2021-05-01
+      content: 大明湖夜游--2021-05
+      address: 济南市
+      image:
+        - https://i.imgs.ovh/2025/09/10/7CJ7Sx.jpeg
 
 - class_name: 我的日常
   path_name: /dailyPhoto
@@ -35,7 +59,17 @@
   top_background: https://i.imgs.ovh/2025/09/09/77NG7t.webp
   cover: https://i.imgs.ovh/2025/09/09/77NG7t.webp
   album_list:
+    - date: 2025-09-09
+      content: 撸猫，撸着爽，挨挠也爽 -- 2025-09
+      image:
+        - https://i.imgs.ovh/2025/09/10/7CJf7t.jpeg
+        - https://i.imgs.ovh/2025/09/10/7CJvJC.jpeg
+        - https://i.imgs.ovh/2025/09/10/7CJrAq.jpeg
     - date: 2025-08-28
-      content: 虽然可怜，但是我想看 哈哈哈 今晚又多一个伤心的小孩
+      content: 虽然可怜，但是我想看 哈哈哈 -- 2025-08
       image:
         - https://i.imgs.ovh/2025/09/10/7CkG9p.jpeg
+    - date: 2024-08-24
+      content: 终于看到了邓紫棋的演唱会，邓紫棋也是一个被爱伤过的女孩 -- 2024-08
+      image:
+        - https://i.imgs.ovh/2025/09/10/7CJjla.jpeg
