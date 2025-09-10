@@ -6,6 +6,14 @@ comments: false
 
 {% timeline 小站建设进程 %}
 
+<!-- timeline 2025-09-10 -->
+
+1. 添加闲言碎语页面
+2. 添加相册集页面
+3. 页面优化
+
+<!-- endtimeline  -->
+
 <!-- timeline 2025-08-28 -->
 
 1. 升级 anzhiyu 主题

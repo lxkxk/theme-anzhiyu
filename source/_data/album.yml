@@ -1,0 +1,41 @@
+- class_name: 世界各地夕阳与风景
+  path_name: /wordScenery
+  type: 2
+  description: 18岁时的梦想是走遍世界每个角落，工作后的我发现想多了，只能尽力🌇。
+  cover: https://i.imgs.ovh/2025/09/10/7CgNrA.png
+  top_background: https://i.imgs.ovh/2025/09/09/77NG7t.webp
+  rowHeight: 220
+  limit: 10
+  lazyload: true
+  btnLazyload: false
+  url: false
+  top_link: /album
+  top_btn_text: 返回
+  album_list:
+    - date: 2024/05/03 18:00:00
+      content: 烟台到大连的海上
+      address: 山东-烟台
+      from: 去过的城市里边最中意烟台~
+      image:
+        - https://i.imgs.ovh/2025/09/10/7Cg1u4.jpeg
+    - date: 2022-10-25
+      content: 洛阳暴雨后的天空。
+      address: 河南洛阳
+      from: 紫菜卷
+      image:
+        - https://bu.dusays.com/2023/04/09/64329399db122.webp
+        - https://bu.dusays.com/2023/04/09/64329399db2e1.webp
+
+- class_name: 我的日常
+  path_name: /dailyPhoto
+  type: 1
+  description: 这里存放的是有关我自己的一些沙雕生活与有趣的事情。
+  top_link: /album
+  top_btn_text: 返回
+  top_background: https://i.imgs.ovh/2025/09/09/77NG7t.webp
+  cover: https://i.imgs.ovh/2025/09/09/77NG7t.webp
+  album_list:
+    - date: 2025-08-28
+      content: 虽然可怜，但是我想看 哈哈哈 今晚又多一个伤心的小孩
+      image:
+        - https://i.imgs.ovh/2025/09/10/7CkG9p.jpeg

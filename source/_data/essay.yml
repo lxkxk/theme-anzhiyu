@@ -4,7 +4,7 @@
   avatarLink: /about/ # 点击头像跳转链接
   limit: 30
   home_essay: true
-  top_background: https://lib.bsgun.cn/Hexo-static/img/essay-bg.avif #背景图
+  top_background: https://i.imgs.ovh/2025/09/09/77Np6e.webp #背景图
   essay_list:
     # - content:    # 内容
     #   date:       # 时间

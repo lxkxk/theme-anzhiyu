@@ -1,13 +1,13 @@
-#注意：
-##1.添加闲言碎语时 记得把 top.pug 文件里的 script(src=url_for(theme.home_top.swiper.swiper_js))
-给注释掉 不然会重复引入 2.https://blog.xiowo.net/posts/anzhiyu/ -- 魔改美化参考
-##2.修改背景图 -- imgloaded.js 文件
+# 注意：
+## 1.添加闲言碎语时 记得把 top.pug 文件里的 script(src=url_for(theme.home_top.swiper.swiper_js))
+给注释掉 不然会重复引入 2.<https://blog.xiowo.net/posts/anzhiyu/> -- 魔改美化参考
+## 2.修改背景图 -- imgloaded.js 文件
 progress_bar/progress_bar.css
 instantpage.js
 fancybox.umd.js
 lazyload.iife.min.js
 snackbar.min.js
-ali_iconfont_css.css - https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css
+ali_iconfont_css.css - <https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css>
 fireworks.min.js
 APlayer.min.js
 Meting2.min.js
@@ -30,20 +30,15 @@ chrome-extension://ncennffkjdiamlpmcbajkmaiiiddgioo/assets/stat-481b0a88.js
 chrome-extension://ncennffkjdiamlpmcbajkmaiiiddgioo/assets/tool-13238bfa.js
 chrome-extension://ljjemllljcmogpfapbkkighbhhppjdbg/dist/detector.js
 
-https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg
-https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender
-https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr
-https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
-https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-%E5%A4%9A%E5%90%89%E4%BA%91-3693F3.svg
-https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
-https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
+<https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg>
+<https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender>
+<https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr>
+<https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg>
+<https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-%E5%A4%9A%E5%90%89%E4%BA%91-3693F3.svg>
+<https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg>
+<https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg>
 
-可替换本地 - 已替换
-https://twikoo-magic.oss-cn-hangzhou.aliyuncs.com/HONKAI3-Pure/1.gif
-dark.js
-busuanzi.pure.mini.js
-https://p.qjqq.cn/cover/202410191400532.png/color
-https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css
+# 我的-相册集 上方背景图片 放在了album.pug文件里边最上方
 
 <p align="center">
   <a title="Hexo Version" target="_blank" href="https://hexo.io/zh-cn/"><img alt="Hexo Version" src="https://img.shields.io/badge/Hexo-%3E%3D%205.3.0-orange?style=flat"></a>
