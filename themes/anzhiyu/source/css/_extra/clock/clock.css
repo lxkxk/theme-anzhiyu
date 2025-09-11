@@ -3,6 +3,8 @@
   z-index: 92;
   transition: 0.3s;
   position: fixed !important;
+  /* top: 12px;
+  left: 7%; */
 }
 
 #he-plugin-simple.shown {

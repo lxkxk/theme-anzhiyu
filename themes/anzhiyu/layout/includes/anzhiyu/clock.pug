@@ -1,29 +1,67 @@
 #he-plugin-simple
-script.
-  var WIDGET = {
-    "CONFIG": {
-      "modules": "0124",
-      "background": "2",
-      "tmpColor": "FFFFFF",
-      "tmpSize": "16",
-      "cityColor": "FFFFFF",
-      "citySize": "16",
-      "aqiColor": "E8D87B",
-      "aqiSize": "16",
-      "weatherIconSize": "24",
-      "alertIconSize": "18",
-      "padding": "10px 10px 10px 10px",
-      "shadow": "0",
-      "language": "auto",
-      "borderRadius": "20",
-      "fixed": "true",
-      "vertical": "top",
-      "horizontal": "left",
-      "left": "20",
-      "top": "7.1",
-      "key": "df245676fb434a0691ead1c63341cd94"
-    }
-  }
+//- 和风天气（cdn链接已经失效 下边换了心知天气）
+//- script.
+//-   var WIDGET = {
+//-     "CONFIG": {
+//-       "modules": "0124",
+//-       "background": "2",
+//-       "tmpColor": "FFFFFF",
+//-       "tmpSize": "16",
+//-       "cityColor": "FFFFFF",
+//-       "citySize": "16",
+//-       "aqiColor": "E8D87B",
+//-       "aqiSize": "16",
+//-       "weatherIconSize": "24",
+//-       "alertIconSize": "18",
+//-       "padding": "10px 10px 10px 10px",
+//-       "shadow": "0",
+//-       "language": "auto",
+//-       "borderRadius": "20",
+//-       "fixed": "true",
+//-       "vertical": "top",
+//-       "horizontal": "left",
+//-       "left": "20",
+//-       "top": "7.1",
+//-       "key": "c45f96097db14505a72753e6e045e256"
+//-     }
+//-   }
 
-link(rel="stylesheet", href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0")
-script(src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0")
+//- link(rel="stylesheet", href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0")
+//- script(src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0")
+
+//- 心知天气/知心天气
+script.
+  (function (a, h, g, f, e, d, c, b) {
+    b = function () {
+      d = h.createElement(g);
+      c = h.getElementsByTagName(g)[0];
+      d.src = e;
+      d.charset = "utf-8";
+      d.async = 1;
+      c.parentNode.insertBefore(d, c);
+    };
+    a["SeniverseWeatherWidgetObject"] = f;
+    a[f] || (a[f] = function () {
+      (a[f].q = a[f].q || []).push(arguments);
+    });
+    a[f].l = +new Date();
+    if (a.attachEvent) {
+      a.attachEvent("onload", b);
+    } else {
+      a.addEventListener("load", b, false);
+    }
+  })(window, document, "script", "SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10));
+
+  window.addEventListener("load", function () {
+    SeniverseWeatherWidget("show", {
+      hover: "enabled",
+      container: "he-plugin-simple",
+      flavor: "slim",
+      location: "ip",
+      geolocation: true,
+      language: "zh-Hans",
+      unit: "c",
+      theme: "auto",
+      token: "7711d625-cb7f-446b-bb2b-c2c757e1993b",
+    });
+  });
