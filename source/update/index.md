@@ -8,7 +8,8 @@ comments: false
 
 <!-- timeline 2025-09-10 -->
 
-1. 添加评论系统
+1. 新增评论系统
+2. 新增留言功能
 
 <!-- endtimeline  -->
 
