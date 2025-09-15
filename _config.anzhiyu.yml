@@ -27,7 +27,7 @@ menu:
 # nav相关配置
 nav:
   enable: true
-  travelling: true
+  travelling: false
   clock: false
   menu:
     - title: 网页
@@ -1149,7 +1149,7 @@ diytitle:
 
 # 留言弹幕配置
 comment_barrage_config:
-  enable: false
+  enable: true
   # 同时最多显示弹幕数
   maxBarrage: 1
   # 弹幕显示间隔时间ms
@@ -1391,7 +1391,7 @@ friends_lite:
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: https://i.imgs.ovh/2025/09/09/77NG7t.webp #信笺头部图片
+    cover: https://i.imgs.ovh/2025/09/15/7jt7LU.jpeg #信笺头部图片
     line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
     beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
     afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
