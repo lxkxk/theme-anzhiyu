@@ -59,11 +59,11 @@
   top_background: https://i.imgs.ovh/2025/09/09/77NG7t.webp
   cover: https://i.imgs.ovh/2025/09/09/77NG7t.webp
   album_list:
-    - date: 2025-09-27
-      content: 欢度国庆 -- 2025-09
-      image:
-        - https://i.imgs.ovh/2025/09/28/75AYBH.jpeg
-        - https://i.imgs.ovh/2025/09/28/75A4FU.jpeg
+    # - date: 2025-09-27
+    #   content: 欢度国庆 -- 2025-09
+    #   image:
+    #     - https://i.imgs.ovh/2025/09/28/75AYBH.jpeg
+    #     - https://i.imgs.ovh/2025/09/28/75A4FU.jpeg
     - date: 2025-09-09
       content: 撸猫，撸着爽，挨挠也爽 -- 2025-09
       image:
