@@ -6,6 +6,12 @@ comments: false
 
 {% timeline 小站建设进程 %}
 
+<!-- timeline 2025-10-9 -->
+
+1. 更新信息，丰富网页
+
+<!-- endtimeline  -->
+
 <!-- timeline 2025-09-15 -->
 
 1. 新增评论系统

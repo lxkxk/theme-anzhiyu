@@ -47,12 +47,12 @@
     background: /img/dt11.jpg
     backgroundDark: /img/dt11.jpg
   selfInfo:
-    selfInfoTips1: 目标
-    selfInfoContentYear: 好好生活
-    selfInfoTips2: 状态
-    selfInfoContent2: 摆烂ing
-    selfInfoTips3: 结果
-    selfInfoContent3: 你猜awa
+    selfInfoTips1: 生于
+    selfInfoContentYear: 1999
+    selfInfoTips2: 职业
+    selfInfoContent2: 前端开发
+    selfInfoTips3: 目标
+    selfInfoContent3: 好好生活
   personalities:
     author_name: 主人公
     personality_type: ENFJ-T
@@ -75,10 +75,10 @@
   comic:
     comic_tips: 爱好影视
     comic_title: 推荐
-    comic_list:
-      - name: 凡人修仙传
-        href: https://www.bilibili.com/bangumi/media/md28223043/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://img.667408.xyz/2024/11/02/788759.webp
+    # comic_list:
+    #   - name: 凡人修仙传
+    #     href: https://www.bilibili.com/bangumi/media/md28223043/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+    #     cover: https://img.667408.xyz/2024/11/02/788759.webp
       # - name: 流浪地球2
       #   href: https://zh.wikipedia.org/wiki/%E6%B5%81%E6%B5%AA%E5%9C%B0%E7%90%832
       #   cover: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/violet.jpg
@@ -91,6 +91,22 @@
       # - name: 泰坦尼克号
       #   href: https://zh.wikipedia.org/wiki/%E6%B3%B0%E5%9D%A6%E5%B0%BC%E5%85%8B%E5%8F%B7_(1997%E5%B9%B4%E7%94%B5%E5%BD%B1)
       #   cover: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/violet.jpg
+    comic_list:
+      - name: 约定的梦幻岛
+        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/63988658aa1b1.webp
+      - name: 咒术回战
+        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/6398864e572ed.webp
+      - name: 紫罗兰永恒花园
+        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/639886315d658.webp
+      - name: 鬼灭之刃
+        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/639886403d472.webp
+      - name: JOJO的奇妙冒险 黄金之风
+        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
+        cover: https://img02.anheyu.com/adminuploads/1/2022/12/13/6398862649585.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
