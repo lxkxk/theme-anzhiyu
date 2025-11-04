@@ -59,6 +59,11 @@
   top_background: https://i.imgs.ovh/2025/09/09/77NG7t.webp
   cover: https://i.imgs.ovh/2025/09/09/77NG7t.webp
   album_list:
+    - date: 2025-10-24
+      content: 过节啦 -- 2025-10
+      image:
+        - https://i.imgs.ovh/2025/11/04/7ByMvL.jpeg
+        - https://i.imgs.ovh/2025/11/04/7ByPsx.jpeg
     - date: 2025-09-28
       content: 欢度国庆 -- 2025-09
       image:

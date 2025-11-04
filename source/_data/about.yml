@@ -124,4 +124,7 @@
     - name: xongxong
       amount: 28.8RMB
       datatime: 2025-08-03
+    - name: 日落与你
+      amount: 18.8RMB
+      datatime: 2025-10-09
   personalities.photo_url: https://i.imgs.ovh/2025/08/18/pJMIQ.jpeg
