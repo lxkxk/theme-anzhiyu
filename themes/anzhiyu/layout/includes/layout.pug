@@ -7,6 +7,9 @@ doctype html
 html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
   head
     include ./head.pug
+    //- 灯笼
+    if(theme.lantern.enable)
+      include ./lantern.pug
   body(data-type="anzhiyu")
     #web_bg
     #an_music_bg

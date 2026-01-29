@@ -455,3 +455,8 @@ blockquote
   & + #content-inner
     +maxWidth768()
       padding:1.875rem 0rem 0
+
+
+// 灯笼
+if hexo-config('lantern') && hexo-config('lantern.enable')
+  @import '_custom/lantern.css'

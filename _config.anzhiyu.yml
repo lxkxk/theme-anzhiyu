@@ -123,6 +123,10 @@ local_search:
   preload: true
   CDN:
 
+# 灯笼开关 建议只在过年期间开启
+lantern:
+  enable: true
+
 # Math (数学)
 # --------------------------------------
 # About the per_page
