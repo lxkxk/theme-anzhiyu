@@ -59,6 +59,19 @@
   top_background: https://i.imgs.ovh/2025/09/09/77NG7t.webp
   cover: https://i.imgs.ovh/2025/09/09/77NG7t.webp
   album_list:
+    - date: 2026-02-01
+      content: 临走前在看一次天安门 -- 2026-02
+      image: 
+        - /img/tamzp.jpg
+        - https://i.imgs.ovh/2026/04/12/ZdXrnU.jpeg
+        - https://i.imgs.ovh/2026/04/12/ZdXL9F.jpeg
+        - https://i.imgs.ovh/2026/04/12/ZdXvxX.jpeg
+    - date: 2026-01-16
+      content: 心心念念的电脑,终于拿下 -- 2026-01
+      image: 
+        - https://i.imgs.ovh/2026/04/12/ZdXlE4.jpeg
+        - https://i.imgs.ovh/2026/04/12/ZdXEaq.jpeg
+        - https://i.imgs.ovh/2026/04/12/ZdXd5C.jpeg
     - date: 2025-10-24
       content: 过节啦 -- 2025-10
       image:

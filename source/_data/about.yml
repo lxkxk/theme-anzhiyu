@@ -43,9 +43,9 @@
     cover: https://cdn.tulan.cyou/2025/06/26/467d6ad2aab9bd0a67807079fc1fbe61.jpg
   map:
     title: 我现在住在
-    StrengthenTitle: 中国,北京
-    background: /img/dt11.jpg
-    backgroundDark: /img/dt11.jpg
+    StrengthenTitle: 中国,山东
+    background: https://i.imgs.ovh/2026/04/12/Zduizr.jpeg
+    backgroundDark: https://i.imgs.ovh/2026/04/12/Zduizr.jpeg
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2000
@@ -56,7 +56,7 @@
   personalities:
     author_name: 主人公
     personality_type: ENFJ-T
-    photo_url: /img/zp22.jpg
+    photo_url: /img/grzp.jpg
     personality_img: /img/svg/enfj.svg
     name_url: https://www.16personalities.com/ch/enfj-%E4%BA%BA%E6%A0%BC
   maxim:
