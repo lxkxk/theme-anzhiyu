@@ -8,7 +8,7 @@ menu:
   网站:
     友人帐: /link/ || anzhiyu-icon-link
     时间线: /update/ || anzhiyu-icon-book
-    朋友圈: /fcircle/ || anzhiyu-icon-artstation
+    # 朋友圈: /fcircle/ || anzhiyu-icon-artstation
     故事: /story/ || anzhiyu-icon-envelope
     # 统计: /charts/ || anzhiyu-icon-link
     留言板: /comments/ || anzhiyu-icon-envelope
