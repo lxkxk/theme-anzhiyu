@@ -1118,7 +1118,7 @@ home_top:
   banner:
     tips: 今日状态
     title: 想大睡三天三夜
-    image: https://i.imgs.ovh/2025/08/27/xqqvt.webp
+    image: https://bu.dusays.com/2026/05/07/69fc93d21342c.jpg
     link: https://www.liuxk.online
 
 # 朋友圈配置
@@ -1127,7 +1127,7 @@ friends_vue:
   vue_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.1.1/friends/index.4f887d95.js
   apiurl: # 朋友圈后端地址
   top_tips: 使用 友链朋友圈 订阅友链最新文章
-  top_background: https://i.imgs.ovh/2025/09/09/77NG7t.webp
+  top_background: https://bu.dusays.com/2026/05/07/69fc945f4525d.jpg
 
 # 深色模式粒子效果canvas
 universe:
@@ -1401,7 +1401,7 @@ friends_lite:
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: https://i.imgs.ovh/2025/09/15/7jt7LU.jpeg #信笺头部图片
+    cover: https://bu.dusays.com/2026/05/07/69fc7fd4e20f7.jpg #信笺头部图片
     line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
     beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
     afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分

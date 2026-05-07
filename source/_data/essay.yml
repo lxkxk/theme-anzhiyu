@@ -4,7 +4,7 @@
   avatarLink: /about/ # 点击头像跳转链接
   limit: 30
   home_essay: true
-  top_background: https://i.imgs.ovh/2025/09/09/77Np6e.webp #背景图
+  top_background: https://bu.dusays.com/2026/05/07/69fc834b7e92b.jpg #背景图
   essay_list:
     # - content:    # 内容
     #   date:       # 时间
@@ -23,10 +23,10 @@
     - content: 遇见彩虹🌈吃定彩虹
       date: 2025/08/24 10:00:00
       image:
-        - https://i.imgs.ovh/2025/08/02/JVMu6.jpeg
-        - https://i.imgs.ovh/2025/08/02/JVHO0.jpeg
-        - https://i.imgs.ovh/2025/08/02/JVnKg.jpeg
-        - https://i.imgs.ovh/2025/08/02/JVJgY.jpeg
+        - https://bu.dusays.com/2026/05/07/69fc84028fefe.jpg
+        - https://bu.dusays.com/2026/05/07/69fc840284071.jpg
+        - https://bu.dusays.com/2026/05/07/69fc8402799e2.jpg
+        - https://bu.dusays.com/2026/05/07/69fc8402952ab.jpg
     - content: 这半静态岂不是随便改
       date: 2025/07/21 10:00:00
       image:
