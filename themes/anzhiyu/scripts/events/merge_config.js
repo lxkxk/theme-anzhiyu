@@ -16,7 +16,7 @@ hexo.extend.filter.register(
       social: null,
       favicon: "/favicon.ico",
       avatar: {
-        img: "https://i.imgs.ovh/2025/08/02/JVpsr.jpeg",
+        img: "https://bu.dusays.com/2026/05/07/69fc82a9b97cb.jpg",
         effect: false,
       },
       disable_top_img: false,

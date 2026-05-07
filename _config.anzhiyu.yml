@@ -155,7 +155,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg
+  img: https://bu.dusays.com/2026/05/07/69fc82a9b97cb.jpg
   effect: false
 
 # Disable all banner image
@@ -481,7 +481,7 @@ footer:
         message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
     enable: true
-    centerImg: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg
+    centerImg: https://bu.dusays.com/2026/05/07/69fc82a9b97cb.jpg
     left:
       - title: email
         link:
@@ -832,7 +832,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://i.imgs.ovh/2025/08/02/JVpsr.jpeg # 自定加载动画义头像
+  avatar: https://bu.dusays.com/2026/05/07/69fc82a9b97cb.jpg # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
