@@ -106,3 +106,13 @@ deploy:
   type: git
   repository: git@github.com:lxkxk/lxkxk.github.io.git
   branch: main
+
+# 文章加密 (hexo-blog-encrypt)
+## https://github.com/D0n9X1n/hexo-blog-encrypt
+encrypt:
+  abstract: 这是一篇加密文章,请输入密码后查看
+  message: 请输入文章密码
+  wrong_pass_message: 抱歉,这个密码看着不太对,请再试试
+  theme: xray
+  kdf:
+    iterations: 600000
