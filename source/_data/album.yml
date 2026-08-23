@@ -7,17 +7,31 @@
   top_background: https://bu.dusays.com/2026/05/07/69fc7e74c9b89.jpg
   cover: https://bu.dusays.com/2026/05/07/69fc7eedb6719.jpg
   album_list:
+    - date: 2026-08-23
+      content: 把含羞草养开花了 -- 2026-08
+      image: 
+        - https://bu.dusays.com/2026/08/23/6a8ab192f2edb.jpg
+        - https://bu.dusays.com/2026/08/23/6a8ab19396d8a.jpg
+    - date: 2026-08-01
+      content: 一把颜值天花板的智能锁 -- 2026-08
+      image: 
+        - https://bu.dusays.com/2026/08/23/6a8ab167aefd1.jpg
+        - https://bu.dusays.com/2026/08/23/6a8ab16c83a04.png
+    - date: 2026-07-20
+      content: 经过数日打造的小家 -- 2026-07
+      image: 
+        - https://bu.dusays.com/2026/08/23/6a8ab190eb80a.jpg
     - date: 2026-02-01
-      content: 临走前在看一次天安门 -- 2026-02
+      content: 临走前再看一次天安门 -- 2026-02
       image: 
         - https://bu.dusays.com/2026/05/06/69fb4226aa1a2.jpg
         - https://bu.dusays.com/2026/05/06/69fb445c7877e.jpg
         - https://bu.dusays.com/2026/04/30/69f35510e2267.jpg
         - https://bu.dusays.com/2026/05/06/69fb4329db3e1.jpg
-    - date: 2026-01-19
-      content: 环球影城逛一逛
-      image:
-        - https://bu.dusays.com/2026/04/30/69f35627e4c1c.jpg
+    # - date: 2026-01-19
+    #   content: 环球影城逛一逛
+    #   image:
+    #     - https://bu.dusays.com/2026/04/30/69f35627e4c1c.jpg
     - date: 2026-01-16
       content: 心心念念的电脑,终于拿下 -- 2026-01
       image: 
@@ -71,6 +85,11 @@
   top_link: /album
   top_btn_text: 返回
   album_list:
+    - date: 2026-07-18 18:30:00
+      content: 36° 夏 --2026-07
+      address: 济南市
+      image:
+        - https://bu.dusays.com/2026/08/23/6a8ab18ad57b5.jpg
     - date: 2025-09-09 20:00:00
       content: 下班回家路上雨景，秋天的雨有点凄凉--2025-09
       address: 北京市
