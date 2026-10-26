@@ -7,11 +7,18 @@
   top_background: https://bu.dusays.com/2026/05/07/69fc7e74c9b89.jpg
   cover: https://bu.dusays.com/2026/05/07/69fc7eedb6719.jpg
   album_list:
+    - date: 2026-10-23
+      content: 过节
+      image: 
+        - https://bu.dusays.com/2026/10/26/6adf5c18ae183.jpg
+        - https://bu.dusays.com/2026/10/26/6adf5c189d823.jpg
+        - https://bu.dusays.com/2026/10/26/6adf5c18aeee6.jpg
+        - https://bu.dusays.com/2026/10/26/6adf5c1ac3f85.jpg
     - date: 2026-08-23
       content: 把含羞草养开花了 -- 2026-08
       image: 
-        - https://bu.dusays.com/2026/08/23/6a8ab192f2edb.jpg
-        - https://bu.dusays.com/2026/08/23/6a8ab19396d8a.jpg
+        - https://bu.dusays.com/2026/10/26/6adf5c18a1863.jpg
+        - https://bu.dusays.com/2026/10/26/6adf5c196eeca.jpg
     # - date: 2026-08-01
     #   content: 一把颜值天花板的智能锁 -- 2026-08
     #   image: 
@@ -32,12 +39,20 @@
     #   content: 环球影城逛一逛
     #   image:
     #     - https://bu.dusays.com/2026/04/30/69f35627e4c1c.jpg
+    - date: 2026-10-20
+      content: 晒会太阳
+      image:
+        - https://bu.dusays.com/2026/10/26/6adf5c189927d.jpg
+        - https://bu.dusays.com/2026/10/26/6adf5c1857768.jpg
     - date: 2026-01-16
       content: 心心念念的电脑,终于拿下 -- 2026-01
       image: 
         - https://bu.dusays.com/2026/05/06/69fb437ac0ceb.jpg
         - https://bu.dusays.com/2026/05/06/69fb43ed4cf68.jpg
-    
+    - date: 2026-01-03  
+      content: 应该够真实了吧
+      image:
+        - https://bu.dusays.com/2026/04/30/69f35817acfa8.jpg
     - date: 2025-10-24
       content: 过节啦 -- 2025-10
       image:
@@ -48,10 +63,6 @@
       image:
         - https://bu.dusays.com/2026/05/06/69fb44c6b8f71.jpg
         - https://bu.dusays.com/2026/05/06/69fb44c7bcbf4.jpg
-    - date: 2025-09-19  
-      content: 应该够真实了吧
-      image:
-        - https://bu.dusays.com/2026/04/30/69f35817acfa8.jpg
     - date: 2025-09-10
       content: 大济南还是舒服啊
       image:
