@@ -1,3 +1,5 @@
 link(rel='stylesheet' href=url_for(theme.asset.aplayer_css) media="print" onload="this.media='all'")
 script(src=url_for(theme.asset.aplayer_js))
 script(src=url_for(theme.asset.meting_js))
+//- 音乐接口容错：音频地址失效时切换备用接口重试，避免“一直自动下一首”（需在 meting_js 之后加载）
+script(src=url_for('/js/meting-fallback.js'))
