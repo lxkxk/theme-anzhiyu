@@ -1296,8 +1296,10 @@ inject:
     # 自定义js
     # - <script src="/js/xxx"></script>
     - <script async data-pjax src="/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    # ECharts 文件留作以后绘制统计图使用。启用时在需要它的页面单独引用 /js/charts/echarts.min.js。
     # - <script src="js/charts/echarts.min.js"></script> # 统计页面
-    - <script async src="//at.alicdn.com/t/c/font_4985042_f3h9475uiqc.js"></script> # js图标引入4 - 自己的
+    # 自定义 SVG 图标脚本随站点发布。主题的字体图标由下方 CDN.option.ali_iconfont_css 引入。
+    - <script async src="/vendor/iconfont/font_4985042_f3h9475uiqc.js"></script> # js图标引入4 - 自己的
     # - <script charset="UTF-8" id="LA_COLLECT" src="https://sdk.51.la/js-sdk-pro.min.js"></script>
     # - <script src="https://sdk.51.la/perf/js-sdk-perf.min.js" crossorigin="anonymous"></script>
     # - <script> LA.init({id:"3N9wsfmt4zDstbzh",ck:"3N9wsfmt4zDstbzh"})</script>
@@ -1331,6 +1333,8 @@ CDN:
     # “接口请求 200 有歌词、但就是没声音，并且一直自动下一首”的现象，这里换成可用实例。
     # 如该实例失效，可换成其它 Meting-API（自建最佳，见 https://github.com/metowolf/Meting-API）
     meting_api: 'https://api.injahow.cn/meting/?server=:server&type=:type&id=:id&r=:r'
+    # 2026-11-27 将下方使用 /vendor/ 路径的第三方资源迁到站点同域，减少公共 CDN 响应慢对页面的影响。
+    # /vendor/ 对应 source/vendor。升级时放入新的版本目录并更新这里的路径，同时保留样式和字体的相对位置。
     # main_css:
     # main:
     # utils:
@@ -1346,14 +1350,16 @@ CDN:
     # instantsearch:
     # docsearch_js:
     # docsearch_css:
-    # pjax:
+    pjax: /vendor/pjax/0.2.8/pjax.min.js
     # blueimp_md5:
     # valine:
-    # twikoo:
+    # 文章评论和最新评论共用这一份前端脚本。升级前请核对 Twikoo 服务端版本。
+    twikoo: /vendor/twikoo/1.6.44/dist/twikoo.all.min.js
     # waline_js:
     # waline_css:
-    # sharejs:
-    # sharejs_css:
+    # Share.js 的样式通过相对路径加载图标字体，更新时需要一起复制发行包里的 fonts 目录。
+    sharejs: /vendor/butterfly-extsrc/1.1.3/sharejs/dist/js/social-share.min.js
+    sharejs_css: /vendor/butterfly-extsrc/1.1.3/sharejs/dist/css/share.min.css
     # mathjax:
     # katex:
     # katex_copytex:
@@ -1361,39 +1367,40 @@ CDN:
     # canvas_ribbon:
     # canvas_fluttering_ribbon:
     # canvas_nest:
-    # lazyload:
-    # instantpage:
-    # typed:
+    lazyload: /vendor/vanilla-lazyload/17.8.5/dist/lazyload.iife.min.js
+    instantpage: /vendor/instant.page/5.2.0/instantpage.js
+    typed: /vendor/typed.js/2.1.0/dist/typed.umd.js
     # pangu:
-    # fancybox_css:
-    # fancybox:
+    fancybox_css: /vendor/@fancyapps/ui/5.0.28/dist/fancybox/fancybox.css
+    fancybox: /vendor/@fancyapps/ui/5.0.28/dist/fancybox/fancybox.umd.js
     # medium_zoom:
-    # snackbar_css:
-    # snackbar:
+    snackbar_css: /vendor/node-snackbar/0.1.16/dist/snackbar.min.css
+    snackbar: /vendor/node-snackbar/0.1.16/dist/snackbar.min.js
     # activate_power_mode:
-    # fireworks:
-    # click_heart:
-    # ClickShowText:
+    fireworks: /vendor/butterfly-extsrc/1.1.3/dist/fireworks.min.js
+    click_heart: /vendor/butterfly-extsrc/1.1.3/dist/click-heart.min.js
+    ClickShowText: /vendor/butterfly-extsrc/1.1.3/dist/click-show-text.min.js
     # fontawesome:
-    # flickr_justified_gallery_js:
-    # flickr_justified_gallery_css:
-    # aplayer_css:
-    # aplayer_js:
-    # meting_js:
+    flickr_justified_gallery_js: /vendor/flickr-justified-gallery/2.1.2/dist/fjGallery.min.js
+    flickr_justified_gallery_css: /vendor/flickr-justified-gallery/2.1.2/dist/fjGallery.css
+    # APlayer 和 MetingJS 按播放器模板里的顺序加载。升级时还需核对 meting-fallback.js 使用的 _loadPlayer 接口。
+    aplayer_css: /vendor/anzhiyu-theme-static/1.0.0/aplayer/APlayer.min.css
+    aplayer_js: /vendor/anzhiyu-blog-static/1.0.1/js/APlayer.min.js
+    meting_js: /vendor/hexo-anzhiyu-music/1.0.1/assets/js/Meting2.min.js
     # meting_api:
     # prismjs_js:
     # prismjs_lineNumber_js:
     # prismjs_autoloader:
     # artalk_js:
     # artalk_css:
-    # pace_js:
-    # pace_default_css:
+    pace_js: /vendor/pace-js/1.2.4/pace.min.js
+    pace_default_css: /vendor/anzhiyu-theme-static/1.1.10/progress_bar/progress_bar.css
     # gsap_js:
     # busuanzi:
     # rightmenu:
-    # waterfall:
-    # ali_iconfont_css:
-    # accesskey_js:
+    waterfall: /vendor/anzhiyu-theme-static/1.0.0/waterfall/waterfall.js
+    ali_iconfont_css: /vendor/anzhiyu-theme-static/1.1.9/icon/ali_iconfont_css.css
+    accesskey_js: /vendor/anzhiyu-theme-static/1.1.5/accesskey/accesskey.js
 # Lite朋友圈配置
 friends_lite:
   enable: true

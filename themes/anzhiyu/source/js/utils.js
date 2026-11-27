@@ -1,3 +1,6 @@
+// 多个文章分享入口共用一次脚本加载，失败后释放请求，方便下次打开时重试。
+let articleQrcodeRequest;
+
 const anzhiyu = {
   debounce: (func, wait = 0, immediate = false) => {
     let timeout;
@@ -1149,19 +1152,68 @@ const anzhiyu = {
     return isMobile;
   },
 
-  // 创建二维码
+  /**
+   * 首次加载页面和 PJAX 切页后，为当前文章的分享浮层重新绑定二维码生成逻辑。
+   *
+   * @returns {void} 绑定完成后结束。
+   */
   qrcodeCreate: function () {
-    if (document.getElementById("qrcode")) {
-      document.getElementById("qrcode").innerHTML = "";
-      var qrcode = new QRCode(document.getElementById("qrcode"), {
-        text: window.location.href,
-        width: 250,
-        height: 250,
-        colorDark: "#000",
-        colorLight: "#ffffff",
-        correctLevel: QRCode.CorrectLevel.H,
-      });
+    const qrcodeContainer = document.querySelector(".share-link.mobile #qrcode");
+    if (!qrcodeContainer) {
+      // 当前页面没有文章二维码入口。
+      return;
     }
+
+    const shareEntry = qrcodeContainer.closest(".share-link.mobile");
+    // 再次打开同一个地址的分享浮层时，复用已经绘制的二维码。
+    let renderedArticleUrl;
+
+    /**
+     * 打开分享浮层时加载二维码库，并为当前文章地址生成二维码。
+     *
+     * @returns {Promise<void>} 绘制完成、依赖失败或页面切换后结束。
+     * @reasoning
+     * PJAX 可能在脚本就绪前替换文章区域，绘制前需要确认目标还在当前页面。
+     * @changeLog
+     * - 2026-11-27: Created. 将文章二维码库改为打开分享浮层时加载。
+     */
+    shareEntry.onpointerenter = async function () {
+      const articleUrl = window.location.href;
+      if (renderedArticleUrl === articleUrl) {
+        return;
+      }
+
+      // 首次打开时加载脚本，连续触发共享同一次请求。
+      if (!articleQrcodeRequest) {
+        articleQrcodeRequest = getScript("/js/wenzhangerweima/qrcode.min.js").catch(error => {
+          articleQrcodeRequest = undefined;
+          throw error;
+        });
+      }
+
+      try {
+        await articleQrcodeRequest;
+
+        // 页面可能已切换，或者另一次触发已为同一地址绘制二维码。
+        const isCurrentArticle = qrcodeContainer.isConnected && window.location.href === articleUrl;
+        if (!isCurrentArticle || renderedArticleUrl === articleUrl) {
+          return;
+        }
+
+        qrcodeContainer.textContent = "";
+        new QRCode(qrcodeContainer, {
+          text: articleUrl,
+          width: 250,
+          height: 250,
+          colorDark: "#000",
+          colorLight: "#ffffff",
+          correctLevel: QRCode.CorrectLevel.H,
+        });
+        renderedArticleUrl = articleUrl;
+      } catch (error) {
+        console.error(error);
+      }
+    };
   },
 
   // 判断是否在el内

@@ -68,7 +68,8 @@ if (theme.snackbar && theme.snackbar.enable)
 if theme.fancybox
   link(rel='stylesheet' href=url_for(theme.asset.fancybox_css) media="print" onload="this.media='all'")
 
-if site.data.essay || theme.home_top.swiper.enable
+//- 页头的 Swiper 样式供首页轮播使用，即刻短文的样式入口在 bbTimeList.pug。
+if theme.home_top.swiper.enable
   link(rel='stylesheet' href=url_for(theme.home_top.swiper.swiper_css) media="print" onload="this.media='all'")
 
 //- google_adsense

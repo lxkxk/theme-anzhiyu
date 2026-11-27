@@ -365,7 +365,8 @@ if site.data.about
                   | 人
 
     script(src=url_for(theme.CDN.option.countup_js))
-    script(src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/gsap/3.9.1/gsap.min.js")
+    //- 关于页的光标动画使用 GSAP 3.9.1，因此在下方动画初始化前加载本站这份发行文件。
+    script(src=url_for("/vendor/gsap/3.9.1/dist/gsap.min.js"))
     script.
       (() => {
         function isInViewPortOfOne(el) {

@@ -29,7 +29,9 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
+# 原样发布 source/vendor 下的第三方资源，避免 Hexo 把脚本注释中的分隔线误识别为页面元数据。
 skip_render:
+  - "vendor/**/*"
 
 # Writing
 new_post_name: :title.md # File name of new posts

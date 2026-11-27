@@ -96,9 +96,8 @@ div
 
   //- 即刻依赖waterfall
   script(async data-pjax src=url_for(theme.asset.waterfall))
-  //- 文章二维码
+  //- 打开文章分享浮层时，utils.js 中的 qrcodeCreate 会按需加载二维码库。以下保留旧版外链。
   //- script(src='https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js')
-  script(src='/js/wenzhangerweima/qrcode.min.js')
   //- 右键菜单
   if (theme.rightClickMenu && theme.rightClickMenu.enable)
     script(src=url_for(theme.asset.right_click_menu_js))
