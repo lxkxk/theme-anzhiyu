@@ -74,13 +74,15 @@ if home_top_config.enable
           - let top_group_banner_title = theme.home_top.banner.title
           - let top_group_banner_image = theme.home_top.banner.image
           - let top_group_banner_link = url_for(theme.home_top.banner.link)
+          //- 推荐卡片默认隐藏，由浏览器在卡片显示后安排封面加载。
+          - const recommendationCoverLoading = theme.lazyload.enable && theme.lazyload.field === 'post' ? 'lazy' : undefined
 
           each item, index in top_group_list.slice(0, 6)
             .recent-post-item(onclick=`pjax.loadUrl("${url_for(item.path)}")`)
               .post_cover.left_radius
                 a(href=item.path, title=item.title)
                   span.recent-post-top-text 荐
-                  img.post_bg(onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'`, alt='cover',  src=item.cover)
+                  img.post_bg(loading=recommendationCoverLoading onerror=`this.onerror=null;this.src='${url_for(theme.error_img.post_page)}'`, alt='cover',  src=item.cover)
               .recent-post-info
                 a.article-title(href=item.path, title=item.title)=item.title
           a#todayCard.todayCard(href=top_group_banner_link, style='z-index: 1;')

@@ -478,6 +478,7 @@ html.hide-aside .layout > div:first-child {
 #footer-animal img.animal {
   position: relative;
   max-width: min(974px, 100vw);
+  height: auto;
   margin: 0 auto;
   display: block;
 }

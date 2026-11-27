@@ -1114,7 +1114,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const lazyloadImg = () => {
     window.lazyLoadInstance = new LazyLoad({
-      elements_selector: "img",
+      // 由浏览器懒加载且自带地址的图片交给浏览器调度，避免滚离时被脚本重置。
+      elements_selector: "img:not([loading='lazy']), img[data-lazy-src]",
       threshold: 0,
       data_src: "lazy-src",
     });

@@ -1,3 +1,5 @@
+//- 页脚装饰图接近可视区时再加载。全站懒加载模式已有主题处理。
+- const footerImageLoading = theme.lazyload.enable && theme.lazyload.field === 'post' ? 'lazy' : undefined
 #footer-wrap
   if theme.footer.socialBar.enable
     - let centerImg = theme.footer.socialBar.centerImg ? theme.footer.socialBar.centerImg : theme.avatar.img
@@ -13,7 +15,7 @@
               use(xlink:href=`#`+ item.icon)
           else if (item.icon.startsWith("anzhiyu"))
             i.anzhiyufont(class=`${item.icon}`)
-      img.footer_mini_logo(title="返回顶部", alt="返回顶部" onclick="anzhiyu.scrollToDest(0, 500)", src=centerImg, size="50px")
+      img.footer_mini_logo(loading=footerImageLoading title="返回顶部", alt="返回顶部" onclick="anzhiyu.scrollToDest(0, 500)", src=centerImg, size="50px")
       each item, index in rightInfo
         a.deal_link(href=url_for(item.link) title=item.title)
           if (item.icon.startsWith("fa"))
@@ -62,12 +64,16 @@
     p#ghbdages
       each item in theme.footer.bdageitem.list
         a.github-badge(target='_blank' href=item.link style='margin-inline:5px' data-title=item.message title=item.message)
-          img(src=item.shields alt=item.message)
+          img(loading=footerImageLoading src=item.shields alt=item.message)
 
 if theme.footer.footerBar && theme.footer.footerBar.enable
   div#footer-animal
     .animal-wall
+    //- 用原图尺寸提前留出空间，避免滚到页脚时图片撑动下方内容。
     img.animal.entered.loaded(
+        loading=footerImageLoading
+        width="1948"
+        height="236"
         src="https://bu.dusays.com/2024/10/20/6714876d5df6e.png"
         onerror="this.onerror=null;this.src='/img/404.jpg';"
         data-lazy-src="https://bu.dusays.com/2025/09/08/68be7e39758fd.webp"

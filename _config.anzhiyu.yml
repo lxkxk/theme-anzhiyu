@@ -122,7 +122,8 @@ docsearch:
 # Local search
 local_search:
   enable: true
-  preload: true
+  # 首次打开搜索时再读取索引，减少普通页面访问的请求。
+  preload: false
   CDN:
 
 # 灯笼开关 建议只在过年期间开启
