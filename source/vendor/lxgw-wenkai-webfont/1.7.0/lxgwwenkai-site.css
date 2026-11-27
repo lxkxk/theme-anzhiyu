@@ -1,0 +1,20 @@
+/**
+ * @description 正文和站名共用的霞鹜文楷 v1.250 常规字重，覆盖本站已有字符和 GB2312 一级汉字。
+ * @source https://github.com/lxgw/LxgwWenKai/blob/v1.250/fonts/TTF/LXGWWenKai-Regular.ttf
+ * 字体授权见 OFL.txt。此目录原有的网页分包来自 lxgw-wenkai-webfont 1.7.0，打包授权见 LICENSE。
+ * 需要进一步扩充时，合并当前字库中已有的字符和新字，再用同版原始 TTF 重新裁剪。
+ * 字库更新后，同步调整下方 src 和站点配置 font_link 的 v 参数。
+ * 本文件引用的 WOFF2 由 HarfBuzz 裁剪并经 FontTools 压缩，裁剪时保留了 OpenType 和 Apple 的排版表。
+ * @changeLog
+ * - 2026-11-27: Created. 引入固定版本的霞鹜文楷网页字体。
+ * - 2026-11-27: 将原有网页分包改为按本站文字裁剪的一份 WOFF2。
+ * - 2026-11-27: 补齐 GB2312 一级汉字，降低后续发文遇到缺字的概率。
+ */
+
+@font-face {
+  font-family: 'LXGW WenKai';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./lxgwwenkai-site.woff2?v=2') format('woff2');
+}

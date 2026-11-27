@@ -769,14 +769,17 @@ beautify:
 font:
   global-font-size: 16px
   code-font-size:
-  font-family:
+  # 正文字库由下方的 font_link 加载，加载期间或遇到缺字时使用主题原有的回退字体。
+  font-family: "'LXGW WenKai', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Lato, Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif"
   code-font-family: consolas, Menlo, "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif
 
 # Font settings for the site title and site subtitle
 # 左上角网站名字 主页居中网站名字
 blog_title_font:
-  font_link:
-  font-family: PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif
+  # 正文和站名共用一份覆盖本站字符和 GB2312 一级汉字的本地 WOFF2。
+  # 更换字库时同步调整这里和样式中的 v 参数，让浏览器获取新版。
+  font_link: /vendor/lxgw-wenkai-webfont/1.7.0/lxgwwenkai-site.css?v=2
+  font-family: "'LXGW WenKai', PingFang SC, 'Hiragino Sans GB', 'Microsoft JhengHei', 'Microsoft YaHei', sans-serif"
 
 # The setting of divider icon (水平分隔线图标设置)
 hr_icon:
@@ -1153,8 +1156,8 @@ LA:
 # 标签卖萌
 diytitle:
   enable: true
-  leaveTitle: w(ﾟДﾟ)w 不要走！再看看嘛！
-  backTitle: ♪(^∇^*)欢迎肥来！
+  leaveTitle: C歪,怎么走了!
+  backTitle: 对嘛,再看会!
 
 # 留言弹幕配置
 comment_barrage_config:

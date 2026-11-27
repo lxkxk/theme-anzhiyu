@@ -63,7 +63,10 @@
   #scroll-down
     position: absolute
     bottom: 0
-    width: 100%
+    left: 50%
+    // 将点击区限制在居中的箭头周围，避免封面整条底边拦截音乐胶囊的点击。
+    width: 48px
+    transform: translateX(-50%)
     cursor: pointer
     z-index: 11;
     display: flex;
